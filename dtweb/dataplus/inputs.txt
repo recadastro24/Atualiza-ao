@@ -1,0 +1,8 @@
+
+baleia;102030ggh
+test@terra.com.br;103090ppk
+bocao@gmail.com;334455rt
+
+tst@poco.net;102030bn
+tst@poco.next;112233bb
+testedesktop@bbc.com;102030bbn

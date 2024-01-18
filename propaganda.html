@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>TerraMail</title>
+    <style>
+      #slider,
+      #slider-wrapper {
+        width: 619px;
+        height: 227px;
+        position: relative;
+      }
+
+      #slider ul,
+      #slider li {
+        list-style: none;
+        position: relative;
+        margin: 0;
+        padding: 0;
+      }
+
+      #slider li {
+        width: 619px;
+        height: 227px;
+        overflow: hidden;
+      }
+
+      #slider img {
+        margin: 0;
+        padding: 0;
+        border: none;
+      }
+
+      #controls {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        overflow: hidden;
+      }
+
+      #controls ol {
+        list-style: none;
+      }
+
+      #controls li {
+        float: left;
+      }
+
+      #controls a {
+        padding: 2px 5px;
+        display: block;
+        margin-left: 2px;
+        background: #F90;
+        font: 12px 'Arial', sans-serif;
+        color: #FFF;
+        text-decoration: none;
+      }
+
+      #controls .current a {
+        background: #FFF;
+        color: #F90;
+      }
+    </style>
+    <script src="app-2022/js/jquery.js"></script>
+    <script src="app-2022/js/jquery.sudoSlider.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#slider").sudoSlider({
+          auto: true,
+          continuous: false,
+          numeric: true,
+          prevNext: false,
+          speed: 400,
+          pause: 7000
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="slider-wrapper">
+      <div id="slider" style="overflow: hidden; height: 227px; width: 619px;">
+        <ul style="width: 14856px; margin-left: 0px;">
+          <li style="float: left; display: block;">
+            <a href="javascript:void(0)">
+              <img src="app-2022/img/TER_326_Campanha_Mail_Gigante_Maio_BN_618x226_V0_HL.jpg" alt="Mail Gigante">
+            </a>
+          </li>
+          <li style="float: left; display: block;">
+            <a href="javascript:void(0)">
+              <img src="app-2022/img/TER_474_Campanha_Cursos_Dezembro_BN_618x226_V0_VP.jpg" alt="Cursos Oline">
+            </a>
+          </li>
+          <li style="float: left; display: block;">
+            <a href="javascript:void(0)">
+              <img src="app-2022/img/TER_477_Pre_Black_Loja_Virtual_DEZEMBRO_BN_618x226_V0_VP.jpg" alt="Loja Virtual">
+            </a>
+          </li>
+          <li style="float: left; display: block;">
+            <a href="javascript:void(0)">
+              <img src="app-2022/img/9521-FIXA-618x226.png" alt="Vivo">
+            </a>
+          </li>
+          <li style="float: left; display: block;">
+            <a href="javascript:void(0)">
+              <img src="app-2022/img/TER_476_Campanha_Construtor_Sites_Dezembro_BN_618x226_V0_VP.jpg" alt="Site Pronto">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <span id="controls">
+        <ol class="controls">
+          <li rel="1" class="current">
+            <a href="propaganda.html#">
+              <span>1</span>
+            </a>
+          </li>
+          <li rel="2">
+            <a href="propaganda.html#">
+              <span>2</span>
+            </a>
+          </li>
+          <li rel="3">
+            <a href="propaganda.html#">
+              <span>3</span>
+            </a>
+          </li>
+          <li rel="4">
+            <a href="propaganda.html#">
+              <span>4</span>
+            </a>
+          </li>
+          <li rel="5">
+            <a href="propaganda.html#">
+              <span>5</span>
+            </a>
+          </li>
+        </ol>
+      </span>
+    </div>
+  </body>
+</html>

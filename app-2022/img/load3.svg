@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="75" height="75" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 175 175"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+ <defs>
+
+  <linearGradient id="gradiente" >
+    <stop  stop-color="#ff7212"/>
+    <stop offset="60%" stop-color="#ff7212"/>
+  </linearGradient>
+
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:url(#gradiente);stroke-width:10;stroke-linecap:round}
+    .str0 {stroke-width:10;stroke-linecap:round}
+    .fil1 {fill:none}
+    .fil0 {fill:none}
+    .fil2 {fill:#E8F2D9;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <g id="_2675043953392">
+   <circle class="fil0" cx="87" cy="87" r="65"/>
+   <circle class="fil1 str0" cx="87" cy="87" r="78"/>
+    <circle class="fil1 str1" cx="87" cy="87" r="78">
+      <animate attributeName="stroke-dashoffset" dur="2.5s" repeatCount="indefinite" from="0" to="1000"></animate>
+      <animate attributeName="stroke-dasharray" dur="2.5s" repeatCount="indefinite" values="224 24;1 248;224 24;"></animate>
+    </circle>
+   </g>
+   
+  </g>
+	
+	
+</svg>
